@@ -1,19 +1,10 @@
 import React from 'react'
-import Sidebar from '../../Component/admin/Sidebar'
-import Footer from "../../Component/admin/Footer";
+
 const Walet = () => {
   return (
     <>
     <>
-  {/* TOP BAR */}
-
-  <div className="container-fluid">
-    <div className="row">
-      {/* SIDEBAR MENU  */}
-      <Sidebar />
-      {/* MAIN CONTENT */}
-      <main className="main-wrapper col-md-9 ms-sm-auto py-4 col-lg-9 px-md-4 border-start">
-        <div className="title-group mb-3">
+    <div className="title-group mb-3">
           <h1 className="h2 mb-0">Wallet</h1>
         </div>
         <div className="row my-4">
@@ -206,10 +197,6 @@ const Walet = () => {
             </div>
           </div>
         </div>
-        <Footer />
-      </main>
-    </div>
-  </div>
 </>
 
     

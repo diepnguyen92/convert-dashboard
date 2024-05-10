@@ -1,0 +1,1 @@
+export const URL_Product_List = "https://vkztcr-3000.csb.app/product";

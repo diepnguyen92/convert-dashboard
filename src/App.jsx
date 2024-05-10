@@ -7,12 +7,18 @@ import Notfound from './pages/admin/Notfound.jsx'
 import Profile from './pages/admin/Profile';
 import Setting from './pages/admin/Setting';
 import Transation from './pages/admin/Transation';
+import ClientHome from './pages/client/ClientHome';
+import ClientLayout from './pages/client/ClientLayout';
 
 const App = () => {
   return (
  <BrowserRouter>
  <Routes>
-
+    <Route path='/' element={<ClientLayout />}>
+    <Route index element={<ClientHome />} />
+    </Route>
+    
+    
     <Route path='/dashboad' element={<Layout />}>
     <Route index element={<Home />} />
     <Route path='/dashboad/Walet' element= {<Walet />}/>
